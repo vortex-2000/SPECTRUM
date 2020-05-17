@@ -35,7 +35,8 @@ del df['G3']
 
 
 plt.scatter(df['studytime'], df['final grade'])
-
+plt.xlabel("hours")
+plt.ylabel("marks")
 
 
 data=[df.studytime,df["final grade"]]
